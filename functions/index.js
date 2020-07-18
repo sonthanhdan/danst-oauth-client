@@ -1,6 +1,7 @@
 const functions = require('firebase-functions');
 const express = require('express');
 const tiny = require('tiny-json-http');
+require('dotenv').config()
 
 const client_id = process.env.OAUTH_CLIENT_ID;
 const client_secret = process.env.OAUTH_CLIENT_SECRET;
